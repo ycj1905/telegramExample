@@ -10,7 +10,8 @@ import {TelegramService} from './service/telegram.service';
     <input [(ngModel)]="company">
 
     {{  company }}
-
+       
+    <!--ng2, ng4沒有$scope, 直接在dom裡面可以內崁method--> 
     <button (click)="queryPayrollTrnsList()">發送電文</button>
   
   `,
