@@ -11,7 +11,7 @@ export class TelegramService {
   //設定URL
   url:string = 'http://192.168.1.116:8080';
 
-  sendTelegram(serviceId, reqData){
+  sendTelegram(serviceId: String, reqData: Object){
 
     /**這裡做 reqData組裝 **/
     if(!reqData){
