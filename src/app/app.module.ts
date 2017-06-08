@@ -4,7 +4,11 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import {TelegramService} from './service/telegram.service';
+import { TelegramService } from './service/telegram.service';
+import { DeviceInfoService } from './service/device-info.service'
+
+import { InMemoryWebApiModule } from 'angular-in-memory-web-api';
+import { InMemoryDataService }  from './simulation/in-memory-data.service';
 
 @NgModule({
   declarations: [
@@ -13,9 +17,10 @@ import {TelegramService} from './service/telegram.service';
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    InMemoryWebApiModule.forRoot(InMemoryDataService)
   ],
-  providers: [TelegramService],
+  providers: [TelegramService, DeviceInfoService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

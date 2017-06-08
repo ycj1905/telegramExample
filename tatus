@@ -1,0 +1,29 @@
+[33mcommit 219afde7785e2d889ed066da7f02407b614d9d1b[m
+Author: Matt Jhou <ycj1665@gmail.com>
+Date:   Sat Jun 3 22:08:15 2017 +0800
+
+    Update app.component.ts
+
+[33mcommit 888b68e0cae3385b8505797c1af2b316fd932d2f[m
+Author: Matt Jhou <ycj1665@gmail.com>
+Date:   Sat Jun 3 21:59:49 2017 +0800
+
+    Update telegram.service.ts
+
+[33mcommit 9ea4c5e5c34093ed8c02a682671f70abf694bba5[m
+Author: Matt Jhou <ycj1665@gmail.com>
+Date:   Sat Jun 3 21:56:45 2017 +0800
+
+    Update README.md
+
+[33mcommit 0e1d20a07cad5fe7d938f4aeec5b6d4c7900d309[m
+Author: YingJheng <ycj1665@gmail.com>
+Date:   Sat Jun 3 21:51:33 2017 +0800
+
+    telegram example for hitrust
+
+[33mcommit 40b81ec0593f5820787b0a897d46e4acba796a43[m
+Author: Angular CLI <angular-cli@angular.io>
+Date:   Sat Jun 3 19:48:11 2017 +0800
+
+    chore: initial commit from @angular/cli
